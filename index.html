@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		.restoDetail {
+  padding: 0px 32px;
+}
+
+.restoDetail .restoImg {
+  margin: auto;
+  width: 100%;
+  max-width: 800px;
+  display: block;
+
+}
+
+.restoDetail .restoTitle {
+  color: #698c82;
+  text-align: center;
+}
+
+.restoDetail .restoInfo h3,
+.restoDetail .restoInfo p {
+  color: #000000;
+}
+
+.restoDetail .restoInfo h3 {
+  margin: 8px 0;
+  color: #698c82;
+}
+
+.restoDetail .restoInfo li {
+  list-style: none;
+  color: #000000;
+}
+
+.restoDetail .review {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.restoDetail .reviewCard {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000000;
+  margin: auto;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.restoDetail .reviewCard p {
+  color: #698c82;
+}
+
+.restoDetail .reviewCard i {
+  text-align: center;
+  font-size: 2rem;
+  color: #000000;
+}
+
+.restoDetail .reviewCard .reviewName {
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.restoDetail .reviewCard .reviewComment {
+  font-size: 0.9rem;
+  color: #000000;
+}
+
+.restoDetail .reviewCard .reviewDate {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.restoInfo .restoOverview h3 {
+  color: #698c82;
+}
+
+.restoInfo .restoOverview p {
+  color: #000000;
+}
+
+@media screen and (min-width: 850px){
+	.restoDetail {
+    padding: 0px 100px;
+  }
+ 
+  .restoDetail .kategori {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+	.restoDetail .reviewCard {
+    height: 250px;
+    width: 300px;
+    
+  }
+}
+</style>
+</head>
+<body>
+	<div id="restoDetail" class="restoDetail">
+		<h2 class="restoTitle">nama resto</h2>
+  <img class="restoImg" src="https://th.bing.com/th/id/R.d18e0e183c54c6a9772e8414745fcb1f?rik=FvtSOu9L%2fKATcg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-1hrm5rxXFB0%2fUL4MIFcxBEI%2fAAAAAAAAOeU%2fbym35JBNpok%2fs1600%2fTall%2bGrass%2bWallpapers%2b11.jpg&ehk=SZ1MJSwEXobXNC0Z5nc4cQu5He7QXWmW0fpT7jfenTw%3d&risl=&pid=ImgRaw&r=0" alt="" />
+  <div class="restoInfo">
+  <h3>Information</h3>
+    <h3>Alamat</h3>
+    <p>jakarta</p>
+    <div class="restoOverview">
+    <h3>Overview</h3>
+    <p>rumah makan padang</p>
+    </div>
+  <div class="kategori">
+    <div class="kategoriMenu">
+    <h3>Kategori Menu</h3>
+    <ul>
+        <li class="namaKategori">kuah</li>
+ 
+    </ul>
+    </div>
+    <div class="kategoriMakanan">
+    <h3>Menu Makanan</h3>
+      <ul>
+        <li class="namaKategori">bakso</li>
+      </ul>
+    </div>
+    <div class="kategoriMinuman">
+    <h3>Menu Minuman</h3>
+    <ul>
+        <li class="namaKategori">jus</li>
+      </div>
+      <div class="kategoriRating">
+      <h3>Rating</h3>
+      <p>5</p>
+      </div>
+    </div>
+    
+    <h3>Customer Review</h3>
+    <div class="review">
+      <div class="reviewCard">
+        <i class="fas fa-user-circle"></i>
+        <p class="reviewName">dhilah</p>
+        <p class="reviewComment">bgs bgs bgs</p>
+        <p class="reviewDate">16 november 2021</p>
+      </div>
+     
+    </div>
+  </div>
+	</div>
+	
+</body>
+</html>
